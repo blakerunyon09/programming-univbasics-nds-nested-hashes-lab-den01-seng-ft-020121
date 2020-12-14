@@ -35,4 +35,4 @@ def aoh_update(aoh, row, key, new_value)
   aoh[row][key]
 end
 
-aoh_update(assembled_aoh, 1, name)
+aoh_update(assembled_aoh, 1, name, "Michael Khan")
