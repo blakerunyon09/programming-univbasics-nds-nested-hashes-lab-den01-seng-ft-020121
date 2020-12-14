@@ -43,4 +43,6 @@ assembled_aoh = [
   BRUCE_G
 ]
 
+puts assembled_aoh
+
 aoh_update(assembled_aoh, 1, :name, "Michael Khan")
