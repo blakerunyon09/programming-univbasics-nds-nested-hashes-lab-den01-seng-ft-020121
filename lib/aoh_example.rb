@@ -32,17 +32,5 @@ end
 
 def aoh_update(aoh, row, key, new_value)
   aoh[row][key] = new_value
-  puts aoh[row][key]
+  return aoh[row][key]
 end
-
-assembled_aoh = [
-  DON_G,
-  JOELLE_VD,
-  PAT_M,
-  KATE_G,
-  BRUCE_G
-]
-
-puts assembled_aoh
-
-aoh_update(assembled_aoh, 1, :name, "Michael Khan")
